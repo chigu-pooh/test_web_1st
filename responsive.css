@@ -1,0 +1,69 @@
+@media screen and (max-width: 1200px){
+  .container {
+    width: 100%;
+  }
+
+  .cafe-feature {
+    margin: 40px auto 0 auto!important;
+  }
+
+  .cafe-menu {
+    padding: 0;
+  }
+  
+  .cafe-menu-inner {
+    width: 100%;
+  }
+
+  .cafe-information {
+    width: 100%;
+  }
+
+  .cafe-map {
+    width: 100%;
+  }
+
+  .cafe-inquiry {
+    width: 100%;
+  }
+
+  .cafe-inquiry h5 {
+    margin-right: 45px;
+    margin-left: 45px;
+  }
+}
+
+@media screen and (max-width: 783px) {
+
+  .hero img {
+    height: unset;
+    width: 100%;
+  }
+
+  .cafe-feature {
+    padding: 24px;
+  }
+
+  .cafe-features {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+  
+  .cafe-description {
+    width: 100%;
+    padding: 0 60px 32px 60px;
+  }
+  
+  .cafe-information-logo {
+    margin-bottom: 40px;
+  }
+
+  .cafe-information-column-right {
+    border-left: 0;
+  }
+
+  .footer p {
+    text-align: center;
+    font-size: 0.6em;
+  }
+}

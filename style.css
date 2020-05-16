@@ -1,0 +1,274 @@
+html, body, div{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.or-more {
+  position: relative;
+
+}
+
+.or-more::after{
+  content: "～";
+  position: absolute;
+  top: 0;
+  right: -1em;
+}
+
+.hero {
+  background-image: url(./images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 689.02px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero img {
+  height: 190px;
+}
+
+.hero p {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: white;
+  text-align: center;
+}
+
+.menu-image {
+  width: 100%;
+}
+
+.cafe-features {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.cafe-feature {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+  padding: 32px 80px;
+  width: 522px;
+  margin: 32px;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.cafe-feature img {
+  width: 220px;
+  margin: 0 auto;
+  display: block;
+}
+
+.cafe-feature-title {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.cafe-description {
+  width: 700px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 28px;
+  padding: 0 80px 80px 80px;
+}
+
+.cafe-description img {
+  width: 80px;
+  margin: 0 auto 30px auto;
+  display: block;
+}
+
+.cafe-description h3 {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.cafe-menu {
+  padding: 80px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cafe-menu-morning {
+  background-image: url(./images/morning.jpg);
+  background-position: center;
+}
+
+.cafe-menu-evening {
+  background-image: url(./images/evening.jpg);
+  background-position: center;
+  margin-bottom: 100px;
+}
+
+
+.cafe-menu-inner {
+  width: 640px;
+  margin: 0 auto;
+  padding: 65px 0;
+  background-color: rgba(255, 255, 255, 0.88);
+}
+
+.cafe-menu-inner h3 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 2.4px;
+  font-weight: normal;
+}
+
+.cafe-menu-inner table {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.cafe-menu-inner p {
+  font-size: 14px;
+  text-align: center;
+  margin: 24px 0;
+  line-height: 26px;
+}
+
+.cafe-information {
+  width: 790px;
+  margin: 0 auto 45px auto;
+}
+
+.cafe-information h3 {
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.cafe-information-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cafe-information-column-right {
+  width: 405px;
+  padding: 8px 40px;
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.cafe-information-column-right h5 {
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 0 0 8px 0;
+}
+
+.cafe-information-column-right p {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+}
+
+.cafe-information-logo {
+  padding: 0 30px;
+}
+
+.cafe-information-logo img {
+  width: 318.05px;
+  margin-bottom: 30px;
+}
+
+.cafe-information-logo p {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-align: center;
+  margin: 0;
+}
+
+.cafe-map {
+  width: 790px;
+  margin: 0 auto 50px auto;
+}
+
+.cafe-map iframe {
+  width: 100%;
+  height: 350px;
+  border: 0;
+}
+
+.cafe-inquiry {
+  width: 360px;
+  margin: 0 auto 100px auto;
+}
+
+.cafe-inquiry h5{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 3px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 16px;
+  margin-bottom: 12px;
+}
+
+.cafe-inquiry p{
+ font-size: 40px;
+ font-weight: bold;
+ text-align: center;
+ margin: 0;
+ letter-spacing: 2px;
+}
+
+.instagram {
+  width: 270px;
+  margin: 0 auto 130px auto;
+}
+
+
+.instagram a {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+
+.instagram img {
+  width: 80px;
+}
+
+.instagram p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #C92C9A;
+  margin: 0;
+}
+
+.instagram:hover{
+  opacity: 0.5;
+}
+
+.footer {
+  background-color: #000000;
+  padding: 15px 10px;
+}
+
+.footer p {
+  margin: 0;
+  color: white;
+  font-size: 12px;
+}
+
